@@ -909,18 +909,18 @@ Services MUST use the following operator precedence for supported operators when
 Operators are listed by category in order of precedence from highest to lowest.
 Operators in the same category have equal precedence:
 
- Group           | Operator | Description           |
------------------|----------|-----------------------|
- Grouping        | ( )      | Precedence grouping   |
- Unary           | not      | Logical Negation      |
- Relational      | gt       | Greater Than          |
-                 | ge       | Greater than or Equal |
-                 | lt       | Less Than             |
-                 | le       | Less than or Equal    |
- Equality        | eq       | Equal                 |
-                 | ne       | Not Equal             |
- Conditional AND | and      | Logical And           |
- Conditional OR  | or       | Logical Or            |
+ Group           | Operator  | Description           |
+---------------- | --------- | ----------------------|
+ Grouping        | ( )       | Precedence grouping   |
+ Unary           | not       | Logical Negation      |
+ Relational      | gt        | Greater Than          |
+                 | ge        | Greater than or Equal |
+                 | lt        | Less Than             |
+                 | le        | Less than or Equal    |
+ Equality        | eq        | Equal                 |
+                 | ne        | Not Equal             |
+ Conditional AND | and       | Logical And           |
+ Conditional OR  | or        | Logical Or            |
 
 ### 9.8. Pagination
 RESTful APIs that return collections MAY return partial sets.
@@ -1273,7 +1273,7 @@ The Group Version format is defined as YYYY-MM-DD, for example 2012-12-07 for De
 ##### Examples of group versioning
 
  Group      | Major.Minor |
-------------|-------------|
+----------- | ------------|
  2012-12-01 | 1.0         |
             | 1.1         |
             | 1.2         |
