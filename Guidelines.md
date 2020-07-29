@@ -910,7 +910,7 @@ Operators are listed by category in order of precedence from highest to lowest.
 Operators in the same category have equal precedence:
 
  Group           | Operator  | Description           |
----------------- | --------- | ----------------------|
+---------------- | --------- | --------------------- |
  Grouping        | ( )       | Precedence grouping   |
  Unary           | not       | Logical Negation      |
  Relational      | gt        | Greater Than          |
@@ -1273,7 +1273,7 @@ The Group Version format is defined as YYYY-MM-DD, for example 2012-12-07 for De
 ##### Examples of group versioning
 
  Group      | Major.Minor |
------------ | ------------|
+----------- | ----------- |
  2012-12-01 | 1.0         |
             | 1.1         |
             | 1.2         |
